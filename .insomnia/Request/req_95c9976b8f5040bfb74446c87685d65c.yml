@@ -1,0 +1,45 @@
+_id: req_95c9976b8f5040bfb74446c87685d65c
+type: Request
+parentId: fld_231984d84f8b4469a241c0879491d902
+modified: 1647271655934
+created: 1647271644677
+url: https://servicocmb.cargo.srv.br/servico/calculofreteservice.asmx?op=CalcularCustoPrazo
+name: Calculo Frete (SRV)
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+      <soap12:Body>
+        <CalcularCustoPrazo xmlns="http://tempuri.org/">
+          <calculoFreteRequest>
+            <Servico>Normal</Servico>
+            <CepRemetente>20221430</CepRemetente>
+            <CepDestinatario>68220000</CepDestinatario>
+            <Peso>1</Peso>
+            <Valor>1</Valor>
+            <Altura>1</Altura>
+            <Largura>1</Largura>
+            <Comprimento>1</Comprimento>
+            <Produto>HAIA</Produto>
+          </calculoFreteRequest>
+        </CalcularCustoPrazo>
+      </soap12:Body>
+    </soap12:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml
+    id: pair_c7f59a1d23cc4aa0b570464d0ae4c148
+authentication: {}
+metaSortKey: -1647271025131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

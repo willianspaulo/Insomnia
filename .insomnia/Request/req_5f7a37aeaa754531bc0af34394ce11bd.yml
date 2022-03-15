@@ -1,0 +1,24 @@
+_id: req_5f7a37aeaa754531bc0af34394ce11bd
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273691987
+created: 1647273494487
+url: https://localhost:44329/Endereco/01001000
+name: Endereco
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer undefined
+    id: pair_26bcc0e396134678ae8e37563629268c
+authentication: {}
+metaSortKey: -1647272271478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_56329c618921424a8986e8e9d1c51172
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647272272866
+created: 1647272271678
+url: https://localhost:44329/Cotacao/TransportarCotacao
+name: Transportar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "willianspaulo@live.com",
+      "origem": "72583500",
+      "destino": "01001000",
+      "largura": "10",
+      "comprimento": "20",
+      "altura": "30",
+      "peso": "100.00",
+      "valorDeclarado": "100.00",
+      "codigoServico": 1
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiNDAiLCJuYmYiOjE2NDY3NDQzMTUsImV4cCI6MTY0Njc3MzExNSwiaWF0IjoxNjQ2NzQ0MzE1fQ.JTl53M4uhLME1F9PcmhGH4Fjx_G6bkQ0eEAcgXox51A
+    id: pair_b3c713f2542a480d917802cb820ad3c1
+  - name: Content-Type
+    value: application/json
+    id: pair_9274b5d9266d476aac5f375bea4335c3
+authentication: {}
+metaSortKey: -1647272271678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

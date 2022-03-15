@@ -1,0 +1,29 @@
+_id: req_f6765c1f637241348b49f36c96ed1b69
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273690354
+created: 1647273459456
+url: https://localhost:44329/Rastreio/GetTodosPedidosUsuario
+name: PedidosUsuarios
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiNDAiLCJuYmYiOjE2NDY3NDQzMTUsImV4cCI6MTY0Njc3MzExNSwiaWF0IjoxNjQ2NzQ0MzE1fQ.JTl53M4uhLME1F9PcmhGH4Fjx_G6bkQ0eEAcgXox51A
+    id: pair_4b4333438c7f47e7bd866ab98638b368
+  - name: Content-Type
+    value: application/json
+    id: pair_9cff9ad514284557b37fb9ea82ff72c8
+authentication: {}
+metaSortKey: -1647272271528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

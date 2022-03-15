@@ -1,0 +1,30 @@
+_id: req_0a24d40fcdac430590e2e974d98b5cf6
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273685365
+created: 1647273679544
+url: https://api.pontualcargo.com.br/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Password":"7365cSyRYLAUx6M",
+    	"Username":"willians"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5dd5890c90594444afc4a4193ae1f88a
+authentication: {}
+metaSortKey: -1647272271628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

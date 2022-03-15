@@ -1,0 +1,24 @@
+_id: req_ce9cca81cf094a489884424a1786448a
+type: Request
+parentId: fld_ade9e14d905b4e7287ad607b75c13bdb
+modified: 1647272047034
+created: 1647272043710
+url: https://api.mercadopago.com/checkout/preferences/69174139-08a59f64-e2f8-4448-83c3-fa942baea89f
+name: Obter Preferência
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      TEST-2922188733298238-080917-d6461c3fbd26362df9e731e2b91d78b5-69174139
+authentication: {}
+metaSortKey: -1647272043710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

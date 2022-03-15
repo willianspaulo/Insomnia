@@ -1,0 +1,111 @@
+_id: req_3aeb9f865c1a4c71adb2812055ee72b6
+type: Request
+parentId: fld_c6ab8c3c9934490792b5d63e36494b6d
+modified: 1647271761420
+created: 1647271751048
+url: http://localhost:20002/PreCotacao/CalcularPrecificacaoTransporteClienteSimuladorSite
+name: CalcularPrecificacaoTransporteClienteSimuladorSite
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "CodigoContratoCliente": 0,
+      "CodigoPreCotacao": null,
+      "NumeroPreCotacao": null,
+      "UsuarioResponsavel": null,
+      "BolPrecificarAgente": true,
+      "ContaCorrenteID": null,
+      "CodigoTarifario": 270,
+      "NomeTarifario": null,
+      "CodigoServico": 1,
+      "CodigoTipoCargaPredominante": 22,
+      "ValorDeclarado": 100,
+      "ValorDeclaradoTexto": null,
+      "PesoReal": 20,
+      "PesoCubado": 20,
+      "PesoTaxado": 20,
+      "GeocodigoOrigem": 0,
+      "CEPOrigem": "47665000",
+      "KmRedespachoPredeterminadoOrigem": null,
+      "GeocodigoDestino": 0,
+      "CEPDestino": "72583500",
+      "KmRedespachoPredeterminadoDestino": null,
+      "BolNecessitaColetar": true,
+      "BolNecessitaEntregar": true,
+      "CodigoCargaEspecifica": 25,
+      "CalcularPrecificacaoAgente": true,
+      "ProdutoCMB": null,
+      "OrigemPrecificacao": 4,
+      "NomeFornecedor": null,
+      "BolSeguroCliente": null,
+      "CodConteudo": null,
+      "NrND": 0,
+      "QuantidadeVolumes": 0,
+      "BolNDSCCA": false,
+      "DescricaoCliente": null,
+      "DescricaoServico": null,
+      "DescricaoContaCorrente": null,
+      "CodigoCliente": 0,
+      "SccaValorEmbalagens": 0,
+      "SccaValorColeta": 0,
+      "SccaValorEntrega": 0,
+      "SccaValorFretePeso": 0,
+      "SccaValorDespacho": 0,
+      "SccaValorEscolta": 0,
+      "SccaValorRedespachoOrigem": 0,
+      "SccaValorRedespachoDestino": 0,
+      "SccaValorEmergencia": 0,
+      "SccaValorPontualPlus": 0,
+      "SccaValorAdvalorem": 0,
+      "SccaValorSuframa": 0,
+      "SccaValorTotal": 0,
+      "SccaStatusNd": 0,
+      "PesoRealTotalColeta": 0,
+      "PesoCubadoTotalColeta": 0,
+      "PesoTaxadoTotalColeta": null,
+      "PesoTaxadoTotalParaEscolta": null,
+      "TipoTaxaForcarCalculo": 0,
+      "BolCobrarEscolta": null,
+      "BolEscoltaObrigatoria": null,
+      "BolCobrarEmbalagem": null,
+      "BolCobrancaEmbalagemObrigatoria": null,
+      "BolPermiteRedespachoSimultaneoColetaEntrega": false,
+      "GeocodigoFreteOrigemFixado": null,
+      "GeocodigoFreteDestinoFixado": null,
+      "BolRetornarNomeGrupoFornecedor": true,
+      "ItensPrecificacao": null,
+      "Quantidade": null,
+      "Comprimento": null,
+      "Altura": null,
+      "Largura": null,
+      "DescricaoViaOrigem": null,
+      "DescricaoViaDestino": null,
+      "Modal": null,
+      "SolicitanteCotacao": null,
+      "EmailSolicitanteCotacao": null,
+      "DataCriacao": "0001-01-01T00:00:00",
+      "StrDataCriacao": null,
+      "MunicipioCliente": null,
+      "UFCliente": null,
+      "UFOrigem": null,
+      "MunicipioOrigem": null,
+      "UFDestino": null,
+      "MunicipioDestino": null,
+      "ValorTotalCliente": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_902e64ce52b541f099205a8afb691f65
+authentication: {}
+metaSortKey: -1647271751048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

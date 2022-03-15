@@ -1,0 +1,27 @@
+_id: req_4285f77b78af4c399b1763e3c55c860d
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273560241
+created: 1647270470698
+url: "https://localhost:44329/Cotacao/ConverterCotacaoSiteParaColeta "
+name: ConverterCotacaoSiteParaColeta
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"guid": "b0cfa070-1a98-4606-aba3-531f0a336ce7"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_76dbce094f5a40af9fb5d427f3057544
+authentication:
+  type: bearer
+metaSortKey: -1647273494537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

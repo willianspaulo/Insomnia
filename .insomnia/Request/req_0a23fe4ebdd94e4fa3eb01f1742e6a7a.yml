@@ -1,0 +1,426 @@
+_id: req_0a23fe4ebdd94e4fa3eb01f1742e6a7a
+type: Request
+parentId: fld_c6ab8c3c9934490792b5d63e36494b6d
+modified: 1647271808916
+created: 1647271797705
+url: http://localhost:20002/SolicitacaoColeta/InsereNovaSolicitacaoColeta
+name: InsereNovaSolicitacaoColeta
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "solicitacaoColeta": {
+        "EnderecoRemetente": {
+          "Nome": "CDI DASA",
+          "CPF": "",
+          "CNPJ": "61486650000183",
+          "IE": null,
+          "NumeroCep": "01435000",
+          "Municipio": "SAO PAULO/SP",
+          "Logradouro": "AVENIDA SAO GABRIEL",
+          "Bairro": "JARDIM PAULISTA",
+          "Referencia": null,
+          "Numero": "359",
+          "Complemento": null,
+          "UF": "SP",
+          "PossuiLogradouro": false,
+          "PossuiBairro": false,
+          "Ufcnpj": null,
+          "CodigoLegado": 0,
+          "IsentoIE": true,
+          "TipoDocumento": 1,
+          "SalvarFavorito": false,
+          "semNumero": false,
+          "NumeroisDisabled": false
+        },
+        "Destinos": [
+          {
+            "bolRetirarCarga": false,
+            "Codigo": 0,
+            "Nome": "KARINA SANTOS MAURICIO DA ROCHA",
+            "CPF": "31270758802",
+            "CNPJ": "",
+            "IE": null,
+            "NumeroCep": "25555783",
+            "Municipio": "SAO JOAO DE MERITI/RJ",
+            "Logradouro": "AVENIDA DEPUTADO JOSE DA COSTA FRANCA",
+            "Bairro": "VILAR DOS TELES",
+            "Referencia": null,
+            "Numero": "119",
+            "Complemento": "LOJA 7  Engebyte  assessorias de informatica",
+            "UF": "RJ",
+            "Ufcnpj": null,
+            "TipoDocumento": 2,
+            "CodigoLegado": 0,
+            "IsentoIE": true,
+            "Cargas": [
+              {
+                "Codigo": 0,
+                "DescricaoCarga": "Chamado 2.029.198\nCentro de Custo: A03025D268",
+                "ConteudoEspecifico": 0,
+                "NotasFiscais": null,
+                "ValorDeclarado": " 200,00",
+                "ValorTotalND": null,
+                "ValorCargaFormatado": 200,
+                "CargaEntreguePor": null,
+                "NecessitaEscolta": false,
+                "NecessitaServicoDiferenciado": false,
+                "DescricaoServicoDiferenciado": null,
+                "ReservarEspacoTransportadora": null,
+                "ContemplaServico": false,
+                "CargaPerigosa": 0,
+                "AcimaDeDuzentosCinquentaMil": null,
+                "CargaInternacional": false,
+                "DataColeta": null,
+                "Obersavacoes": "Chamado 2.029.198\nCentro de Custo: A03025D268",
+                "TipoServico": 0,
+                "TipoServicoDesc": null,
+                "TipoEspecie": 0,
+                "IsSelected": false,
+                "NrSolcitacaoColeta": 0,
+                "IdColeta": 0,
+                "IsValido": false,
+                "IsNotaDespachoGerada": false,
+                "PesoCubado": 4,
+                "totalPesoCubado": 4,
+                "totalPesoCubadoTerrestre": 4.41,
+                "PrecoPontualCarga": null,
+                "FretePeso": null,
+                "Coleta": null,
+                "Entrega": null,
+                "Despacho": null,
+                "RedespachoOrigem": null,
+                "RedespachoDestino": null,
+                "Emergencia": null,
+                "PontualPlus": null,
+                "Advalorem": null,
+                "SUFRAMA": null,
+                "CodigoTipoEspecifico": 0,
+                "PesoTotal": 2,
+                "PesoTaxado": 4,
+                "CodigoTipoCargaEspecifica": 25,
+                "ConteudoEspecifica": null,
+                "ConteudoPredominante": 22,
+                "CodigoTipoCargaPredominante": 22,
+                "DescricaoConteudoPredominante": "Outros",
+                "DescricaoConteudoEspecifico": "Outros",
+                "BolNecessitaEmbalagem": false,
+                "BolNecessitaMontagemKits": false,
+                "CodigoTipoEmbalagem": null,
+                "Volumes": [
+                  {
+                    "Id": 407897,
+                    "Conteudo": null,
+                    "Peso": 2,
+                    "Altura": 15,
+                    "Largura": 36,
+                    "Comprimento": 49,
+                    "Quantidade": 1,
+                    "BolColetado": false,
+                    "PesoCubado": 4.41,
+                    "PesoCubadoAereo": 4.41,
+                    "PesoCubadoAereoUnitario": 4.41
+                  }
+                ],
+                "DocumentosTransporte": [
+                  {
+                    "Codigo": 235288,
+                    "LinhaDigitavel": "DECLARAÇÃO",
+                    "NumeroDocumento": "DECLARAÇÃO",
+                    "TipoDocumentoId": 3,
+                    "TipoDocumentoTransporte": null,
+                    "Valor": null,
+                    "GedRef": {
+                      "GedFileId": null,
+                      "GedFileName": null
+                    }
+                  }
+                ],
+                "CargaComposicaoValores": [
+                  {
+                    "OrigemOuDestino": null,
+                    "CodigoTarifarioTipoTaxa": 1,
+                    "CodigoTipoServicoOperacao": 1,
+                    "Valor": 25.56,
+                    "ValorClienteOriginal": 25.56,
+                    "ValorClienteNegociado": 0,
+                    "DescricaoItem": "Coleta",
+                    "CodigoFornecedor": 135,
+                    "ValorFornecedorOriginal": 16.25,
+                    "ValorFornecedorNegociado": 0,
+                    "ValorAdicionalFornecedorIncluso": 0,
+                    "DescricaoValorAdicionalFornecedorIncluso": null,
+                    "BolTaxaSeguro": false,
+                    "NomeFornecedor": null,
+                    "MensagemErro": null,
+                    "BolPossuiProblemaPrecificacao": false,
+                    "GeoCodigoOrigem": null,
+                    "GeoCodigoDestino": null,
+                    "CodigoTipoSeguroOperacionalizacao": 0,
+                    "GeoCodigoDestinoDescricao": null,
+                    "GeoCodigoOrigemDescricao": null,
+                    "QuilometragemRedespacho": 0,
+                    "BolCobrarCliente": null,
+                    "BolPagarFornecedor": null
+                  },
+                  {
+                    "OrigemOuDestino": null,
+                    "CodigoTarifarioTipoTaxa": 2,
+                    "CodigoTipoServicoOperacao": 2,
+                    "Valor": 25.56,
+                    "ValorClienteOriginal": 25.56,
+                    "ValorClienteNegociado": 0,
+                    "DescricaoItem": "Entrega",
+                    "CodigoFornecedor": 133,
+                    "ValorFornecedorOriginal": 16.25,
+                    "ValorFornecedorNegociado": 0,
+                    "ValorAdicionalFornecedorIncluso": 0,
+                    "DescricaoValorAdicionalFornecedorIncluso": null,
+                    "BolTaxaSeguro": false,
+                    "NomeFornecedor": null,
+                    "MensagemErro": null,
+                    "BolPossuiProblemaPrecificacao": false,
+                    "GeoCodigoOrigem": null,
+                    "GeoCodigoDestino": null,
+                    "CodigoTipoSeguroOperacionalizacao": 0,
+                    "GeoCodigoDestinoDescricao": null,
+                    "GeoCodigoOrigemDescricao": null,
+                    "QuilometragemRedespacho": 0,
+                    "BolCobrarCliente": null,
+                    "BolPagarFornecedor": null
+                  },
+                  {
+                    "OrigemOuDestino": null,
+                    "CodigoTarifarioTipoTaxa": 5,
+                    "CodigoTipoServicoOperacao": 19,
+                    "Valor": 1,
+                    "ValorClienteOriginal": 1,
+                    "ValorClienteNegociado": 0,
+                    "DescricaoItem": "Advalorem",
+                    "CodigoFornecedor": null,
+                    "ValorFornecedorOriginal": 0.21,
+                    "ValorFornecedorNegociado": 0,
+                    "ValorAdicionalFornecedorIncluso": 0,
+                    "DescricaoValorAdicionalFornecedorIncluso": null,
+                    "BolTaxaSeguro": true,
+                    "NomeFornecedor": null,
+                    "MensagemErro": null,
+                    "BolPossuiProblemaPrecificacao": false,
+                    "GeoCodigoOrigem": null,
+                    "GeoCodigoDestino": null,
+                    "CodigoTipoSeguroOperacionalizacao": 1,
+                    "GeoCodigoDestinoDescricao": null,
+                    "GeoCodigoOrigemDescricao": null,
+                    "QuilometragemRedespacho": 0,
+                    "BolCobrarCliente": null,
+                    "BolPagarFornecedor": null
+                  },
+                  {
+                    "OrigemOuDestino": null,
+                    "CodigoTarifarioTipoTaxa": null,
+                    "CodigoTipoServicoOperacao": 3,
+                    "Valor": 167.88,
+                    "ValorClienteOriginal": 167.88,
+                    "ValorClienteNegociado": 0,
+                    "DescricaoItem": "Frete/Peso",
+                    "CodigoFornecedor": null,
+                    "ValorFornecedorOriginal": 0,
+                    "ValorFornecedorNegociado": 0,
+                    "ValorAdicionalFornecedorIncluso": 0,
+                    "DescricaoValorAdicionalFornecedorIncluso": null,
+                    "BolTaxaSeguro": false,
+                    "NomeFornecedor": null,
+                    "MensagemErro": null,
+                    "BolPossuiProblemaPrecificacao": false,
+                    "GeoCodigoOrigem": 3550308,
+                    "GeoCodigoDestino": 3304557,
+                    "CodigoTipoSeguroOperacionalizacao": 0,
+                    "GeoCodigoDestinoDescricao": "RIO DE JANEIRO / RJ",
+                    "GeoCodigoOrigemDescricao": "SAO PAULO / SP",
+                    "QuilometragemRedespacho": 0,
+                    "BolCobrarCliente": null,
+                    "BolPagarFornecedor": null
+                  }
+                ],
+                "QuantidadeTotalVolume": 0,
+                "BolSeguroCliente": false,
+                "NumeroApolice": "",
+                "DescricaoEmbalagem": null,
+                "NumeroNDManual": null,
+                "CodigoRastreamento": null,
+                "PossuiProblemaDadosVolume": false,
+                "Embalagens": [],
+                "BolAnexoObrigatorio": false,
+                "TipoDoConhecimentoConemb": "N",
+                "NumeroConhecimentoTransporteOriginadorConemb": null,
+                "CargaInformacoesConemb": null,
+                "CargaComposicaoValoresImportadosConemb": null,
+                "ListaCodigosNDs": [
+                  267700
+                ],
+                "CodigoConteudoPredominante": 22,
+                "DetalheErroPrecificacao": null
+              }
+            ],
+            "Observacao": null,
+            "SalvarFavorito": false,
+            "PossuiPendenciaDadosDestinatario": false,
+            "PossuiPendenciaDadosCarga": false,
+            "PossuiPendenciaProdutoDivergeDaContaCorrente": false,
+            "PossuiPendenciaXmlJaProcessado": false,
+            "StrProblemasValidacaoColetaDestino": null,
+            "EntregarParaDestinatario": false,
+            "PossuiLogradouro": false,
+            "PossuiBairro": false,
+            "semNumero": false,
+            "NumeroisDisabled": false,
+            "Responsaveis": [
+              {
+                "Codigo": 300802,
+                "Nome": "KARINA SANTOS MAURICIO DA ROCHA",
+                "Documento": "31270758802",
+                "TipoDocumento": 6,
+                "Observacao": null,
+                "CodigoDocumentoIdentificacao": 6,
+                "CodigoColeta": null,
+                "CodigoDestino": 229212,
+                "CodigoColetaDestino": 73956,
+                "OrgaoExpedidor": null,
+                "TelefoneResponsavelColetas": [
+                  {
+                    "Codigo": 301665,
+                    "Numero": "5521969674519",
+                    "BolPrincipal": true,
+                    "CodigoResponsavelColeta": 300802
+                  }
+                ]
+              }
+            ],
+            "TelefoneContatoDestinoColetas": [
+              {
+                "Codigo": 0,
+                "Numero": "5521969674519",
+                "BolPrincipal": true,
+                "CodigoDestinoColeta": 229212,
+                "CodigoColeta": 73956
+              }
+            ],
+            "EnderecosEletronico": [
+              {
+                "Codigo": 0,
+                "CodigoColeta": 73956,
+                "CodigoDestino": 229212,
+                "Descricao": "naoinformado@email.com",
+                "DataCadastro": null,
+                "BolPrincipal": true,
+                "Principal": true,
+                "BolConfirmacaoEntrega": false
+              }
+            ],
+            "colapse": true
+          }
+        ],
+        "Responsaveis": [
+          {
+            "Codigo": 0,
+            "Nome": "CDI DASA",
+            "Documento": "61486650000183",
+            "TipoDocumento": 7,
+            "Observacao": null,
+            "CodigoDocumentoIdentificacao": 7,
+            "CodigoColeta": 73956,
+            "CodigoDestino": null,
+            "CodigoColetaDestino": null,
+            "OrgaoExpedidor": null,
+            "TelefoneResponsavelColetas": [
+              {
+                "Codigo": 0,
+                "Numero": "1195319199",
+                "BolPrincipal": true,
+                "CodigoColeta": 73956,
+                "Principal": false
+              }
+            ]
+          }
+        ],
+        "TelefoneContatoColetas": [
+          {
+            "Codigo": 0,
+            "Numero": "1195319199",
+            "BolPrincipal": true,
+            "CodigoColeta": 73956,
+            "Principal": false
+          }
+        ],
+        "EnderecosEletronico": [
+          {
+            "Codigo": 0,
+            "CodigoColeta": 73956,
+            "Descricao": "naoinformado@oi.com",
+            "DataCadastro": null,
+            "BolPrincipal": true,
+            "Principal": true,
+            "BolConfirmacaoEntrega": false
+          }
+        ],
+        "NomeCliente": "Diagnosticos da  America S/A",
+        "StatusSolicitaca": null,
+        "SolicitacaoCadastradaPor": null,
+        "DtSolicitacao": "26/11/2021 - 17:44",
+        "TipoServicoNome": "Normal",
+        "ContaCorrenteNome": "16300 - 002 (Rodoviário)",
+        "Observacao": null,
+        "Numero": "2021073956 - 01",
+        "CodigoPai": 0,
+        "ClienteID": 16300,
+        "ContaCorrenteID": 21563,
+        "NumeroSolicitacaoColeta": 2021073956,
+        "TipoServico": 1,
+        "IdColeta": 0,
+        "CodigoTipoStatusColeta": 5,
+        "CodigoUsuario": 16300,
+        "ResponsavelTipoDocumento": 0,
+        "DataAgendamento": null,
+        "BolPermiteAlteracao": false,
+        "BolPermiteEdicao": false,
+        "Contrato": {
+          "Codigo": 32493,
+          "CodigoCliente": 16300,
+          "CodigoTipoBloqueio": null,
+          "DataInicio": "01/05/2018",
+          "DataVencimento": "01/05/2022",
+          "Bloquado": null,
+          "DataBloqueio": "",
+          "PermiteColetaFinalSemana": false,
+          "ArredondamentoPeso": null,
+          "BolPermitePesoFracionado": false,
+          "BolFreteAVista": false
+        },
+        "DataHoraPedido": "2021-12-08T18:40:14.598Z",
+        "BolClienteVaiEntregarCarga": null,
+        "BolAgenteColetouSemAgendamento": false,
+        "BolClienteEntregouSemAgendamento": null,
+        "ArredondamentoPeso": null,
+        "BolPermitePesoFracionado": false,
+        "BolForcarOperacionalizacao": false,
+        "BolReterTodasNDs": true,
+        "CodigoLegado": 16300,
+        "Codigo": 73956
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d3f928e2b974d818abdcb9721c7c00b
+authentication: {}
+metaSortKey: -1647271797705
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

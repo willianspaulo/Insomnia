@@ -1,0 +1,47 @@
+_id: req_2b3543044edf400bbd752f00e76feea8
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273652266
+created: 1647273608631
+url: http://localhost:44329/api/user
+name: CriarUsuario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {	
+    	"Bairro": "Vila São Sebastião I",
+    	"Complemento": "",
+    	"Cpfcnpj": "95848483138",
+    	"Email": "maiconrodrigocaldeira-86@damha.com.br",
+    	"InscricaoEstadual": "",
+    	"Logradouro": "Travessa Dezenove",
+    	"Nome": "Maicon Rodrigo Caldeira",
+    	"NomeFantasia": "",
+    	"NumeroCep": "78730248",
+    	"Municipio": "Rondonópolis",
+    	"UF": "MT",
+    	"Numero": "333",
+    	"RazaoSocial": "",
+    	"Telefone": "6628752714",
+    	"Senha": "123456"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiMiIsIm5iZiI6MTYyMDY3NDkzMCwiZXhwIjoxNjIwNzAzNzMwLCJpYXQiOjE2MjA2NzQ5MzB9.uwmnmIUD0dNynT76dZWZdBnjdKzQyOKrvSESIvpAGmU
+    id: pair_0992e003c4364462becf3f9f0f16b2f7
+  - name: Content-Type
+    value: application/json
+    id: pair_1e5d5317f5e14cae8b0fd742a4ddd548
+authentication: {}
+metaSortKey: -1647273494512
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

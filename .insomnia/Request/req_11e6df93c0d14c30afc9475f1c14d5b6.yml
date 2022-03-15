@@ -1,0 +1,28 @@
+_id: req_11e6df93c0d14c30afc9475f1c14d5b6
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647273688572
+created: 1647272426710
+url: https://localhost:44329/Rastreio/2021230271%20-%2001
+name: Rastreio
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer undefined
+    id: pair_7713488222c249f9ab81e827cb0daba7
+  - name: Content-Type
+    value: application/json
+    id: pair_b494527be2704ee687691238f51b9e6d
+authentication: {}
+metaSortKey: -1647272271578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

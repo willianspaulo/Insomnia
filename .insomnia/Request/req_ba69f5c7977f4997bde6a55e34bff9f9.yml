@@ -1,0 +1,25 @@
+_id: req_ba69f5c7977f4997bde6a55e34bff9f9
+type: Request
+parentId: fld_ade9e14d905b4e7287ad607b75c13bdb
+modified: 1647272066240
+created: 1647271939620
+url: https://api.mercadopago.com/v1/payments/1242390160
+name: Obter Pagamento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      TEST-2922188733298238-080917-d6461c3fbd26362df9e731e2b91d78b5-69174139
+    id: pair_1244876908034de98e61a5dfd9a39a44
+authentication: {}
+metaSortKey: -1647272021867
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_07cf9be8a8dc443494585f984f77105c
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647272398623
+created: 1647272397197
+url: https://localhost:44329/Cotacao/GetDadosCheckout
+name: GetDadosCheckout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Guid": "c5fd83b3-35c4-4096-a6d6-d338312d3926"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiNDAiLCJuYmYiOjE2NDY3NDQzMTUsImV4cCI6MTY0Njc3MzExNSwiaWF0IjoxNjQ2NzQ0MzE1fQ.JTl53M4uhLME1F9PcmhGH4Fjx_G6bkQ0eEAcgXox51A
+    id: pair_7889ecd1dc19461b956a9c8bf8a43a68
+  - name: Content-Type
+    value: application/json
+    id: pair_ec7a234abb74431aa702f96926f757b1
+authentication: {}
+metaSortKey: -1647272397197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

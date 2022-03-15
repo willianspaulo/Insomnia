@@ -1,0 +1,35 @@
+_id: req_ee47137efe7949b1b4ef6dc004ab5fca
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1647272323911
+created: 1647272322470
+url: https://localhost:44329/pagamento/iniciarpagamento
+name: IniciarPagamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigoTipoCargaEspecifica":"25",
+    	"bolTermosAceito":true,
+    	"guid":"fd1da64e-d9d7-4f11-b9a8-d29c225988ec"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiNDAiLCJuYmYiOjE2NDY3NDQzMTUsImV4cCI6MTY0Njc3MzExNSwiaWF0IjoxNjQ2NzQ0MzE1fQ.JTl53M4uhLME1F9PcmhGH4Fjx_G6bkQ0eEAcgXox51A
+    id: pair_f6f81b27ad8844208beb027a1d154760
+  - name: Content-Type
+    value: application/json
+    id: pair_7e244d40ff71464db0785766fa7591f6
+authentication: {}
+metaSortKey: -1647272322470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
