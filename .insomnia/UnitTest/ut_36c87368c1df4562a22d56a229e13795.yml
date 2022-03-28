@@ -1,0 +1,10 @@
+_id: ut_36c87368c1df4562a22d56a229e13795
+type: UnitTest
+parentId: uts_3a58917d71154e7d87fa8920b7c35c58
+modified: 1647309695016
+created: 1647309668076
+requestId: req_2b3543044edf400bbd752f00e76feea8
+name: Cadastro de usuário
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

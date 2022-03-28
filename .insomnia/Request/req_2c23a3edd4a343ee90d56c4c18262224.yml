@@ -1,10 +1,10 @@
-_id: req_872af3f2516149b5bf253a2ce68f2cb9
+_id: req_2c23a3edd4a343ee90d56c4c18262224
 type: Request
 parentId: fld_3ec0841c9bd5412195e317124c45b1dd
-modified: 1648431497006
-created: 1647272343518
-url: https://localhost:50000/cotacao
-name: Cotacao
+modified: 1648431537739
+created: 1648431494936
+url: https://localhost:50000/cotacao/SalvarCotacaoTrechoNaoAtendido
+name: SalvarCotacaoTrechoNaoAtendido
 description: ""
 method: POST
 body:
@@ -24,9 +24,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f32d6020f74a451fb5ca298d4833bb42
+    id: pair_0f94a7d619b84be6a38ad5691b3257aa
 authentication: {}
-metaSortKey: -1647272343518
+metaSortKey: -1648431494936
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
