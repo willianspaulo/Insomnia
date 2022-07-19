@@ -1,10 +1,10 @@
-_id: req_3aeb9f865c1a4c71adb2812055ee72b6
+_id: req_f0762b5b6c8c481ba93cd7a18d008362
 type: Request
 parentId: fld_c6ab8c3c9934490792b5d63e36494b6d
-modified: 1656378906827
-created: 1647271751048
-url: http://localhost:20002/PreCotacao/CalcularPrecificacaoTransporteClienteSimuladorSite
-name: CalcularPrecificacaoTransporteClienteSimuladorSite
+modified: 1656895271975
+created: 1656378933305
+url: https://www2.hom.cargo.srv.br/PreCotacao/CalcularPrecificacaoTransporteClienteSimuladorSite
+name: HOM_CalcularPrecificacaoTransporteClienteSimuladorSite
 description: ""
 method: POST
 body:
@@ -101,7 +101,7 @@ headers:
     value: application/json
     id: pair_902e64ce52b541f099205a8afb691f65
 authentication: {}
-metaSortKey: -1647271751048
+metaSortKey: -1647271665306
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

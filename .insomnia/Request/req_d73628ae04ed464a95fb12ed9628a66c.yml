@@ -1,0 +1,44 @@
+_id: req_d73628ae04ed464a95fb12ed9628a66c
+type: Request
+parentId: fld_4d8e88c4b71744aab7be78a0bc1437e3
+modified: 1656896490816
+created: 1656895331700
+url: https://www.hom.api.cargo.srv.br/Cotacao/TransportarCotacao
+name: TransportarCotacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"willianscnn@gmail.com",
+    	"origem":"01001000",
+    	"destino":"72583500",
+    	"largura":"10",
+    	"comprimento":"20",
+    	"altura":"20",
+    	"peso":"10.00",
+    	"valorDeclarado":"10.00",
+    	"descricaoOrigem":"SAO PAULO/SP",
+    	"descricaoDestino":"BRASILIA/DF",
+    	"codigoServico":13
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1c830c0205cc4015973951d835d27ace
+  - id: pair_20e69c19432e42d5b86aa686700def88
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZ24iOiJ3aWxsaWFucyIsImNndSI6IiIsImNkdSI6IjIxMzQyIiwiY3BlIjoiNDEiLCJuYmYiOjE2NTY4OTUxNjYsImV4cCI6MTY1NjkyMzk2NiwiaWF0IjoxNjU2ODk1MTY2fQ.RIBmj8Qqv08wTG515ekFZirL9pkEU1WL7FgvswZuE20
+    description: ""
+authentication: {}
+metaSortKey: -1656895331700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

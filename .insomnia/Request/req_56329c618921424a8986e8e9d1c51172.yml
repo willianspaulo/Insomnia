@@ -1,9 +1,9 @@
 _id: req_56329c618921424a8986e8e9d1c51172
 type: Request
 parentId: fld_3ec0841c9bd5412195e317124c45b1dd
-modified: 1647272272866
+modified: 1657292134251
 created: 1647272271678
-url: https://localhost:44329/Cotacao/TransportarCotacao
+url: https://localhost:50000/Cotacao/TransportarCotacao
 name: Transportar
 description: ""
 method: POST

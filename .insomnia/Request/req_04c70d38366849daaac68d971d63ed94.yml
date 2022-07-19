@@ -1,0 +1,32 @@
+_id: req_04c70d38366849daaac68d971d63ed94
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1658192506100
+created: 1658192333830
+url: https://localhost:50000/Contato/EnviarMensagemDeContato
+name: EnviarMensagemDeContato
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "Nome": "willians",
+    "Celular": "61 9999 9999",
+    "Email": "mail@mail.com.br",
+    "Mensagem": "Mensagem em anexo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8701a6e8dc3548619d0b2099f004d008
+authentication: {}
+metaSortKey: -1657361303216.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
