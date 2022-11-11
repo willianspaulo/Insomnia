@@ -1,0 +1,25 @@
+_id: req_2d3231bb9312420c821ed43d03249e5d
+type: Request
+parentId: fld_3ec0841c9bd5412195e317124c45b1dd
+modified: 1668170971596
+created: 1667510539675
+url: https://localhost:50000/DocumentoFiscal/db5c9fa9-99c2-44ec-8412-9eaccb2c00f7
+name: AwsS3/BaixarDocumentoFiscal
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{ "Guid" : "db5c9fa9-99c2-44ec-8412-9eaccb2c00f7"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1662552398743.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_c5494e3bd6604b3db9fe481ddc25f8b1
+type: Request
+parentId: fld_4d8e88c4b71744aab7be78a0bc1437e3
+modified: 1667508635196
+created: 1664337423668
+url: "https://www.hom.api.cargo.srv.br/Cotacao/ConverterCotacaoSiteParaColeta "
+name: ConverterCotacaoSiteParaColeta
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"guid": "da0098f8-06cc-4edf-aacf-48855c69ea8c"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_76dbce094f5a40af9fb5d427f3057544
+authentication:
+  type: bearer
+metaSortKey: -1656895331650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
