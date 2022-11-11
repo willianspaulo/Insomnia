@@ -1,7 +1,7 @@
 _id: req_904377a50a4349e59d86bad7542c83b9
 type: Request
 parentId: fld_231984d84f8b4469a241c0879491d902
-modified: 1647271632001
+modified: 1664318502901
 created: 1647271579564
 url: https://servicocmb.pontualcargo.com.br/servico/calculofreteservice.asmx?op=CalcularCustoPrazo
 name: Calculo Frete
@@ -18,7 +18,7 @@ body:
           <calculoFreteRequest>
             <Servico>Normal</Servico>
             <CepRemetente>20221430</CepRemetente>
-            <CepDestinatario>68220000</CepDestinatario>
+            <CepDestinatario>13333536</CepDestinatario>
             <Peso>1</Peso>
             <Valor>1</Valor>
             <Altura>1</Altura>
